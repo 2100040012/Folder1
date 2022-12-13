@@ -16,3 +16,21 @@ print(thistuple3)
 #Same concept of indexing
 print(thistuple3[1])
 #But tuples cannot be updated. we can delete entire tuple only.
+#Dictionaries: it consists of keys and values. 
+Dict={
+    "Username":("Admin","Admin1"),
+    "Passowrd":"Pass",
+    "Os":"Windows",
+    "Ram":"128GB"
+} #For example, username is key and admin is the value. 
+print(Dict)
+print(Dict["Username"])
+#But we cannot use indexing in dictionary.
+#Update 
+Dict["Username"]="Friend"
+print(Dict)
+#No use of append, insert, or remove.
+#Delete
+del Dict["Os"]
+print(Dict)
+ 
